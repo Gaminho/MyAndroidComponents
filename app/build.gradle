@@ -9,6 +9,13 @@ android {
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
+    libraryVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "android-components-${defaultConfig.versionName}.aar"
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
