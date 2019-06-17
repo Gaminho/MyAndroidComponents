@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyAndroidComponents</string>
+
+    <string name="duration">Durée</string>
+    <string name="in_minutes">(en minutes)</string>
+    <string name="no_date_specified">No date specified</string>
+    <string name="date">Date</string>
+    <string name="hour">Heure</string>
+    <string name="no_hour_specified">No hour specified</string>
+</resources>
